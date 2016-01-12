@@ -1,0 +1,98 @@
+body{
+	background-color: #c3c3c3;
+	background-image:url(../Images/pattern.png);
+	padding: 0;
+	margin: 0;
+
+}
+
+#header{
+	box-shadow: 1px 2px 4px #79146C;
+	border: 2px ridge #1354A4;
+  	width: 800px;
+  	height: 200px;
+  	background-color: #25B33f;
+  	margin-bottom: 10px;
+  	background-image:url(../Images/header_bg.jpg);
+}
+
+#main{
+	padding: 30px;	
+	width: 800px;
+	height: 2000px;
+	margin: 29px auto;
+	outline: 0px solid #DB0809;
+	background-image:url(../Images/bg.jpg);
+
+}
+#main h1{
+	text-align: center;
+	outline: 0px solid #00cccc;
+	padding-top: 250px;
+	font-family: 36px Verdana; 
+	background-image:url(../Images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 180px 250px;
+}
+
+ #wrapper{
+	background-image:url(../Images/tel.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 120px;
+	background-attachment: fixed;
+}
+
+ table, td, th {
+	border: 1px solid #cccccc;
+    text-align: center;
+}
+
+table{
+	width: 700px;
+	border-collapse: collapse;
+	margin: 40px auto;
+}
+
+td, th{
+	height: 30px;
+	padding: 5px;
+	background-color: #ffffff;
+}
+tr.blue td{
+	background-color: #97CBFF;
+}
+
+th{
+	background-image:url(../Images/tablebg.jpg);	
+}
+
+ul {
+	list-style: inside url(../Images/arrow.png);
+	color: #24329D;
+}
+
+ol{
+	list-style: inside url(../Images/snowflake.png); 
+
+}
+ dt{ 
+	list-style: inside url(../Images/devil.png);
+
+}
+
+.new3 {
+	font:italic bold 15px Tahoma;
+	text-decoration: underline;
+}
+h2{
+	color: #145C64; 
+}
+h3{
+	color: #145C64;	
+}
+ol{
+	color: #24329D;
+}
+dl{
+	color: #24329D;
+}
